@@ -189,7 +189,7 @@ export const newCanvasFromImage = async (arg: {
       dispatch(bboxChangedFromCanvas({ x: 0, y: 0, width, height }));
       dispatch(rasterLayerAdded({ overrides, isSelected: true }));
       if (withInpaintMask) {
-        dispatch(inpaintMaskAdded({ isSelected: true }));
+        dispatch(inpaintMaskAdded({ isSelected: true, isBookmarked: true }));
       }
       dispatch(canvasClearHistory());
       break;
@@ -206,7 +206,7 @@ export const newCanvasFromImage = async (arg: {
       dispatch(bboxChangedFromCanvas({ x: 0, y: 0, width, height }));
       dispatch(controlLayerAdded({ overrides, isSelected: true }));
       if (withInpaintMask) {
-        dispatch(inpaintMaskAdded({ isSelected: true }));
+        dispatch(inpaintMaskAdded({ isSelected: true, isBookmarked: true }));
       }
       dispatch(canvasClearHistory());
       break;
@@ -222,7 +222,7 @@ export const newCanvasFromImage = async (arg: {
       dispatch(bboxChangedFromCanvas({ x: 0, y: 0, width, height }));
       dispatch(inpaintMaskAdded({ overrides, isSelected: true }));
       if (withInpaintMask) {
-        dispatch(inpaintMaskAdded({ isSelected: true }));
+        dispatch(inpaintMaskAdded({ isSelected: true, isBookmarked: true }));
       }
       dispatch(canvasClearHistory());
       break;
@@ -238,7 +238,7 @@ export const newCanvasFromImage = async (arg: {
       dispatch(bboxChangedFromCanvas({ x: 0, y: 0, width, height }));
       dispatch(rgAdded({ overrides, isSelected: true }));
       if (withInpaintMask) {
-        dispatch(inpaintMaskAdded({ isSelected: true }));
+        dispatch(inpaintMaskAdded({ isSelected: true, isBookmarked: true }));
       }
       dispatch(canvasClearHistory());
       break;
@@ -249,7 +249,7 @@ export const newCanvasFromImage = async (arg: {
       dispatch(canvasSessionStarted({ sessionType: 'advanced' }));
       dispatch(referenceImageAdded({ overrides: { ipAdapter }, isSelected: true }));
       if (withInpaintMask) {
-        dispatch(inpaintMaskAdded({ isSelected: true }));
+        dispatch(inpaintMaskAdded({ isSelected: true, isBookmarked: true }));
       }
       dispatch(canvasClearHistory());
       break;
@@ -261,7 +261,7 @@ export const newCanvasFromImage = async (arg: {
       dispatch(canvasSessionStarted({ sessionType: 'advanced' }));
       dispatch(rgAdded({ overrides: { referenceImages }, isSelected: true }));
       if (withInpaintMask) {
-        dispatch(inpaintMaskAdded({ isSelected: true }));
+        dispatch(inpaintMaskAdded({ isSelected: true, isBookmarked: true }));
       }
       dispatch(canvasClearHistory());
       break;
