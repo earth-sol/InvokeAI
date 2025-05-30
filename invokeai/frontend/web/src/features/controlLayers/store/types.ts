@@ -1,6 +1,6 @@
 import { deepClone } from 'common/util/deepClone';
 import { fetchModelConfigByIdentifier } from 'features/metadata/util/modelFetchingHelpers';
-import type { ProgressImage} from 'features/nodes/types/common';
+import type { ProgressImage } from 'features/nodes/types/common';
 import { zMainModelBase, zModelIdentifierField } from 'features/nodes/types/common';
 import type { ParameterLoRAModel } from 'features/parameters/types/parameterSchemas';
 import {
@@ -422,7 +422,6 @@ export type LoRA = {
 };
 
 export type StagingAreaImage = {
-  sessionId: string;
   imageDTO: ImageDTO;
   offsetX: number;
   offsetY: number;
