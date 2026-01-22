@@ -77,7 +77,7 @@
     "konva": "^9.3.20",
     "linkify-react": "^4.2.0",
     "linkifyjs": "^4.2.0",
-    "lodash-es": "^4.17.21",
+    "lodash-es": "^4.17.23",
     "lru-cache": "^11.1.0",
     "mtwist": "^1.0.2",
     "nanoid": "^5.1.5",
