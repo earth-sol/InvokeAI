@@ -2311,11 +2311,11 @@ wheels = [
 
 [[package]]
 name = "picklescan"
-version = "0.0.26"
+version = "1.0.4"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/ea/c2/f691daf63545b43d786d403dca7966d358adb6f93a42bb85db8db4729e47/picklescan-0.0.26.tar.gz", hash = "sha256:dd78976151024f0a6c617dcb2c31e45441e9e95727db14282482b3750e34ccc5", size = 26369, upload-time = "2025-04-07T04:54:08.911Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/31/78/8ae707374fe7e0aa839bcc3ccba0f732fa7d3077f781d8639acd91098138/picklescan-1.0.4.tar.gz", hash = "sha256:a2b85b1e3dcd39aa7420f5e50dce40ac596644eb6e504bf163911b286eb3a7ac", size = 30581, upload-time = "2026-03-02T18:35:48.359Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/df/1e/88cdc39e6055df6cdecb8b74b582093979d213dfc65a142819719444ae3a/picklescan-0.0.26-py3-none-any.whl", hash = "sha256:54e4c75228b87283b03347dda113328e5d90caa0193c484895cf4130d72dd53c", size = 20522, upload-time = "2025-04-07T04:54:07.717Z" },
+    { url = "https://files.pythonhosted.org/packages/5c/88/dd6e4c9b9a7a7fccd7203c4745203a0eec6ec77426a987411ddd7eb845b7/picklescan-1.0.4-py3-none-any.whl", hash = "sha256:6e156d130326da09ca6d195b0f38fdb81b90cbd1ac2ec69d16694e7e5062f8e7", size = 23903, upload-time = "2026-03-02T18:35:47.115Z" },
 ]
 
 [[package]]
